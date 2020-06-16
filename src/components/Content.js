@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LoginPage from "./form/LoginPage";
 
 export class Content extends Component {
   constructor() {
@@ -6,9 +7,9 @@ export class Content extends Component {
     this.state = {
       data: [
         { name: "Nejar", age: 26, id: "1" },
-        { name: "raja", age: 26, id: "1" },
-        { name: "praksh", age: 26, id: "1" },
-        { name: "suraj", age: 26, id: "1" },
+        { name: "raja", age: 26, id: "2" },
+        { name: "praksh", age: 26, id: "3" },
+        { name: "suraj", age: 26, id: "4" },
       ],
     };
   }
@@ -37,6 +38,7 @@ export class Content extends Component {
             </tr>
           </tbody>
         </table>
+        <LoginPage />
       </div>
     );
   }
