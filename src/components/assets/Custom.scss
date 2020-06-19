@@ -1,0 +1,12 @@
+$dangerColor: red;
+$buttonColor: green;
+
+.container {
+  color: $dangerColor;
+  font-size: 25px;
+}
+
+.login-btn {
+  color: $buttonColor;
+  font-size: 25px;
+}
