@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc6732c25020d7cb68f9e53809835fe1",
+    "revision": "6bba3c165f37245f59145b08e87389a8",
     "url": "/new-portal/index.html"
   },
   {
-    "revision": "9e791d2edfd37cf3ec5b",
+    "revision": "06478a413a65bbef3d5d",
     "url": "/new-portal/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "e553a7f0d501b8b58659",
-    "url": "/new-portal/static/css/main.5f361e03.chunk.css"
+    "revision": "04b0b16ba84c8f92a71b",
+    "url": "/new-portal/static/css/main.ffdb363e.chunk.css"
   },
   {
-    "revision": "9e791d2edfd37cf3ec5b",
-    "url": "/new-portal/static/js/2.be913fe9.chunk.js"
+    "revision": "06478a413a65bbef3d5d",
+    "url": "/new-portal/static/js/2.d03d78bc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/new-portal/static/js/2.be913fe9.chunk.js.LICENSE.txt"
+    "url": "/new-portal/static/js/2.d03d78bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e553a7f0d501b8b58659",
-    "url": "/new-portal/static/js/main.abd645b4.chunk.js"
+    "revision": "04b0b16ba84c8f92a71b",
+    "url": "/new-portal/static/js/main.010f5e8e.chunk.js"
   },
   {
     "revision": "8ea287f0e5dd4a40f89c",
