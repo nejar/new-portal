@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { NavLink, Switch, Route } from "react-router-dom";
 import UserDetail from "./UserDetail";
+import NewsCard from "./NewsCard";
+import SingleNews from "./SingleNews";
+import NewsList from "./NewsList";
 
 export class Dashboard extends Component {
   render() {
@@ -9,8 +12,8 @@ export class Dashboard extends Component {
     const { match } = this.props;
 
     return (
-      <div className="row" stye={{ backgroundColor: "#f4f4f4" }}>
-        <div className="col-3">
+      <div className="row" style={{ backgroundColor: "#f4f4f4" }}>
+        <div className="col-3 sidebar-bg-color">
           <nav class="nav flex-column">
             <NavLink className="nav-link active" to={`${match.url}`}>
               Home
@@ -32,7 +35,9 @@ export class Dashboard extends Component {
               Hello users
             </Route>
             <Route path={`${match.path}/users/:id`} component={UserDetail} />
-            <Route path={`${match.path}/news`}>Hello news</Route>
+            <Route path={`${match.path}/news`} component={NewsList} exact />
+            {/* <Route path={`${match.path}/news`} component={NewsCard} exact /> */}
+            {/* <Route path={`${match.path}/news/:id`} component={SingleNews} /> */}
           </Switch>
         </div>
       </div>
